@@ -30,9 +30,9 @@
             id="dropdownMenuButton1" data-bs-toggle="dropdown" 
             aria-expanded="false">SDG Goals</button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li><a class="dropdown-item" href="#">SDG 1</a></li>
+              <li><a class="dropdown-item" href="<?= base_url("/sdg1") ?>">SDG 1</a></li>
               <li><a class="dropdown-item" href="#">SDG 2</a></li>
-              <li><a class="dropdown-item" href="#">SDG 3</a></li>
+              <li><a class="dropdown-item" href="<?= base_url("/sdg3") ?>">SDG 3</a></li>
             </ul>
           </div>
         </li>
