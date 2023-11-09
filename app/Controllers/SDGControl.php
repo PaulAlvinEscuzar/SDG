@@ -8,9 +8,9 @@ class SDGControl extends BaseController
     {
         return view("sdgcontent/sdg1");
     }
-    public function health_wellbeing_form()
+    public function formsdg3()
     {
-        return view("admin/health_wellbeing_form");
+        return view("admin/formsdg3");
     }
     public function sdg3()
     {
